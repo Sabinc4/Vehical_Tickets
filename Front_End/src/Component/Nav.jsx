@@ -17,14 +17,14 @@ const Nav=()=> {
             <Link spy={true} smooth={true} to="About">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded  ">About</li>
             </Link>
-            <Link spy={true} smooth={true} to="Services">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded  ">Services</li>
+            <Link spy={true} smooth={true} to="Bookings">
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded  ">Bookings</li>
             </Link>
-            <Link spy={true} smooth={true} to="Projects">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded  ">Projects</li>
+            <Link spy={true} smooth={true} to="Sign-In">
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded  ">Sign-In</li>
             </Link>
-            <Link spy={true} smooth={true} to="Contact">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded  ">Contact</li>
+            <Link spy={true} smooth={true} to="Register">
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded  ">Register</li>
             </Link>
         </ul>
     </div>
@@ -44,14 +44,14 @@ const Nav=()=> {
                         <Link spy={true} smooth={true} to="About">
                         <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer  ">About</li>
                         </Link>
-                        <Link spy={true} smooth={true} to="Services">
-                        <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer  ">Services</li>
+                        <Link spy={true} smooth={true} to="Bookings">
+                        <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer  ">Bookings</li>
                         </Link>
-                        <Link spy={true} smooth={true}to="Projects">
-                        <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer  ">Projects</li>
+                        <Link spy={true} smooth={true}to="Sign-In">
+                        <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer  ">Sign-In</li>
                         </Link>
-                        <Link spy={true} smooth={true} to="Contact">
-                        <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer  ">Contact</li>
+                        <Link spy={true} smooth={true} to="Register">
+                        <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer  ">Register</li>
                         </Link>
                         </ul>
                     </div>
